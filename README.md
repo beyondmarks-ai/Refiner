@@ -32,7 +32,11 @@ than the Azure OpenAI model key, but it can still be extracted and abused to inv
 the backend. Before public distribution, replace it with user authentication or
 device attestation and add per-user quotas.
 
-The local Android Function-key resource is intentionally excluded by `.gitignore`.
+A clean clone compiles with empty backend settings. For local builds, add
+`refiner.backendUrl` and `refiner.backendKey` to ignored
+`android/local.properties`. CI builds can instead provide
+`REFINER_BACKEND_URL` and `REFINER_BACKEND_KEY` environment secrets. Never
+commit either key.
 
 ## Build
 
