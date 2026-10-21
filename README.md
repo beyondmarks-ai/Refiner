@@ -47,3 +47,10 @@ flutter build apk --release
 ```
 
 The native Android integration requires Android 6.0 (API 23) or later.
+
+<!-- beyond-marks-credit:start -->
+---
+### Built by Beyond Marks AI Academy
+
+Developed by **Rakesh Kumar** at [Beyond Marks AI Academy](https://beyondmarks.ai).
+<!-- beyond-marks-credit:end -->
